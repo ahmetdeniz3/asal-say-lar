@@ -8,27 +8,23 @@
 </head>
 <body>
     <script>
-        'use strict';
         let i=0;
-       let asalmı=()=>{
+       let tekmi_çiftmi=()=>{
             while(i<1){
-                let asalki=prompt('bir sayı gir ve asal olup olmadığını öğren (eğer çıkmak istiyorsan çık yaz)','')
+                let asalki=prompt('bir sayı gir ve tek olup olmadığını öğren (eğer çıkmak istiyorsan çık yaz)','')
                 if(asalki%2 == 0 ){
-                    alert('sayı asal değil');
+                    alert('sayı çifttir');
                 }
                 else if(asalki=='end'){
                 i++;
                 }
                 else{
-                  alert('sayı asal')
+                  alert('sayı tek')
                 }
             }    
                 
-             
-            
-
         }
-        asalmı();
+        tekmi_çiftmi();
     </script>
 
 </body>
