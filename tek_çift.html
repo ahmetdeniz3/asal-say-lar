@@ -8,23 +8,16 @@
 </head>
 <body>
     <script>
-        let i=0;
-       let tekmi_çiftmi=()=>{
-            while(i<1){
-                let asalki=prompt('bir sayı gir ve tek olup olmadığını öğren (eğer çıkmak istiyorsan çık yaz)','')
-                if(asalki%2 == 0 ){
-                    alert('sayı çifttir');
-                }
-                else if(asalki=='end'){
-                i++;
-                }
-                else{
-                  alert('sayı tek')
-                }
-            }    
-                
+        while(true){
+           let asalki=prompt('bir sayı gir ve tek olup olmadığını öğren (eğer çıkmak istiyorsan çık yaz)','')
+           if(asalki%2 == 0 ){
+            alert('sayı çifttir');
+           } else if(asalki=='end') {
+            break
+           } else {
+            alert('sayı tek')
+           }
         }
-        tekmi_çiftmi();
     </script>
 
 </body>
