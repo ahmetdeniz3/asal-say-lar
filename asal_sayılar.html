@@ -8,7 +8,27 @@
 </head>
 <body>
     <script>
-
+        while(true){
+    let i=2;
+let asalsayımı=prompt('bir sayı giriniz','');
+while(true){
+    if(asalsayımı<=i){
+        alert(asalsayımı+' sayısı asaldır');
+        break;
+    }
+    else{
+        if(asalsayımı%i==0)
+        {
+            alert(asalsayımı+' sayısı asal değil bu sayıdan ötürü:'+i);
+            break; 
+        }
+        else{
+            i++;
+            console.log(i);
+        }
+    }
+}
+        }
     </script>
 </body>
 </html>
